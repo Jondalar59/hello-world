@@ -153,7 +153,7 @@ public class Ventanas {
         //Interior de la Ventana
         Image icon = null;
         try {
-            icon = ImageIO.read(new File(System.getProperty("user.dir") + "\\src\\Ventanas\\vaca++.png"));
+            icon = ImageIO.read(new File(System.getProperty("user.dir") + "\\src\\hellogit\\vaca++.png"));
         } catch (IOException ex) {
             System.err.println("IMPOSIBLE ACCEDER AL RECURSO VACA++.PNG");
         }
@@ -173,7 +173,7 @@ public class Ventanas {
 
         Image icon2 = null;
         try {
-            icon2 = ImageIO.read(new File(System.getProperty("user.dir") + "\\src\\Ventanas\\vacaTT.png"));
+            icon2 = ImageIO.read(new File(System.getProperty("user.dir") + "\\src\\hellogit\\vacaTT.png"));
         } catch (IOException ex) {
             System.err.println("IMPOSIBLE ACCEDER AL RECURSO VACATT.PNG");
         }
@@ -187,7 +187,7 @@ public class Ventanas {
 
         Image icon3 = null;
         try {
-            icon3 = ImageIO.read(new File(System.getProperty("user.dir") + "\\src\\Ventanas\\vaca--.png"));
+            icon3 = ImageIO.read(new File(System.getProperty("user.dir") + "\\src\\hellogit\\vaca--.png"));
         } catch (IOException ex) {
             System.err.println("IMPOSIBLE ACCEDER AL RECURSO VACA--.PNG");
         }
