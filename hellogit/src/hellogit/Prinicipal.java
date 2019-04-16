@@ -267,6 +267,7 @@ public class Prinicipal extends JFrame {
         iniciarbtn.setBounds(100, 160, 100, 20);
         contenedor.add(iniciarbtn);
         iniciarbtn.setFont(new Font("Arial", Font.PLAIN, 16));
+        Prinicipal temp = this;
         iniciarbtn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent ae) {
@@ -278,7 +279,7 @@ public class Prinicipal extends JFrame {
                 String claveString = new String(clave);
 
                 if (texto.equals(usuario) && claveString.equals(Clave)) {
-                    this.setVisible(true);
+                    temp.setVisible(true);
                     Login.setVisible(false);
                 } else {
                     JOptionPane.showMessageDialog(null, "Usuario Incorrecto");
