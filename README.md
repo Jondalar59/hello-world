@@ -1,4 +1,3 @@
 # hello-world
 primer repositorio
-
-Esto es nuevo a ver que procede con esta  ventana que tiene auto corrector
+Rama de Jondalar si vas a hacer cambios usa tu rama
